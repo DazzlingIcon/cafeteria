@@ -13,7 +13,7 @@ class Pedido {
         this.cantidades = cantidades;
     }
 
-    // Método para mostrar los detalles del pedido
+   
     public void mostrarPedido() {
         System.out.println("Cliente: " + nombreCliente);
         for (int i = 0; i < productos.length; i++) {
